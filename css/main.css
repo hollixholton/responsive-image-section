@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #e2e2e2;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin:0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+a {
+  background-color: #555;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
