@@ -16,6 +16,7 @@ html {
 
 body {
   margin: 0;
+  text-align: center;
 }
 
 h1 {
@@ -41,7 +42,6 @@ p {
 .img-flex {
   display: block;
   width: 100%;
-  vertical-align: center;
 }
 
 a {
@@ -79,32 +79,59 @@ div {
 @media only screen and (min-width: 38em) {
 
   .img-flex {
-    position: absolute;
-    left: 400px;
-    top: 16px;
-    max-width: 18em;
-    margin: 1em;
+    max-width: 49%;
+    display: inline-block;
+  }
+
+  html {
+    line-height: 1.4;
+    font-size: 110%;
   }
 
   div {
     display: inline-block;
-    padding: 2em;
-    position: relative;
+    max-width: 45%;
+    padding: 0;
+    padding-top: 35px;
+    padding-left: 10px;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size:;
-    line-height: normal;
+    line-height: 1.5;
+    font-size: 120%;
+  }
+
+  .img-flex {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 0;
+  }
+
+  div {
+    padding: 0;
   }
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size:;
-    line-height: normal;
+    line-height: 1.5;
+    font-size: 130%;
+  }
+
+  section {
+    vertical-align: middle;
+  }
+
+  div {
+    max-width: 40%;
+  }
+
+  .img-flex {
+    max-width: 40%;
   }
 }
